@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+.conteudo {
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img {
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+}
+.menu {  
+    background-color: #2399A7;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.caixa-menu {
+    transition: box-shadow .3s;
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align:center;
+    color: #000;
+    font-weight: bold;
+  }
+
+.caixa-menu:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.5); 
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+.pagina {
+    width: 90%;
+    max-height: 48vh;
+    overflow-y: auto;
+    background-color: #2399A7;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.pagina div:not(:target) {
+    display: none;
+}
+
+.caixaPagina {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.caixaPagina td h2 {
+    text-align: center;
+}
+
+.caixaPagina td h3 {
+    margin: 20px 0px 0px 0px;
+
+}
+
+.caixaPagina td form input[type=text] {
+    
+    /* estilos adicionais */
+    border: none;
+    padding: 10px;
+    width: 80vw;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.caixaPagina td form input[type=date],[type=time]  {
+    padding: 10px;
+    border-radius: 6px;
+    width: 10vw;
+    font-size: 20px;
+    margin: 5px 0;
+
+}
+.caixaPagina td form input[type=submit] {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.caixaPagina td form section{
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    padding: 10px 0 10px 0;
+    background-color: #2399A7;
+}
