@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.menuMobile{
+    display: none;
+}
+
 .caixa-menu {
     transition: box-shadow .3s;
     width: 150px;
@@ -116,4 +120,17 @@
     width:100%;
     padding: 10px 0 10px 0;
     background-color: #2399A7;
+}
+
+@media (max-width: 500px) {
+    .menu{
+        display:none;
+    }
+    .menuMobile{
+        display:list-item;
+    }
+    .menuItens{
+        display: none;
+        
+    }
 }

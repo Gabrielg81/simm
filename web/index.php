@@ -27,6 +27,16 @@
             <a class="caixa-menu" href="#item4">Ajuda</a>
         </div>
 
+        <div class="menuMobile">
+            <img src="imagens/menu.png" style="width: 50px; float: left; margin: 0 0 25px 25px" onclick="Mudarestado('menuItens')"/>
+            <div id="menuItens" class="menuItens">
+                <a class="" href="#item1">Cadastrar</a>
+                <a class="" href="#item2">Listar</a>
+                <a class="" href="#item3">Marcar consulta</a>
+                <a class="" href="#item4">Ajuda</a>
+            </div>
+        </div>
+
         <div class="pagina">
 
             <div id="item1">
