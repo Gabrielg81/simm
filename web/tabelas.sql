@@ -9,9 +9,12 @@ create TABLE IF NOT EXISTS cadpro (
 
 create TABLE IF NOT EXISTS caddis (
     proId varchar(100),
-    dat varchar (20),
+    dataUnica varchar (100),
+    periodo varchar (100),
     hentrada varchar(20),
     hsaida varchar(20),
+    recorrente varchar(100),
+
 
     PRIMARY KEY (proId)
 );

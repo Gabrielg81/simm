@@ -92,7 +92,7 @@
 .caixaPagina td form input[type=date],[type=time]  {
     padding: 10px;
     border-radius: 6px;
-    width: 10vw;
+    width: 50%;
     font-size: 20px;
     margin: 5px 0;
 
@@ -101,6 +101,8 @@
     width: 100%;
     padding: 5px;
     font-size: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
 }
 
 .caixaPagina td form section{
